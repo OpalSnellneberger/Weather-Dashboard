@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    background-color: #444;
+    color: #fff;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e679f;
+}
+
+button:focus {
+    outline: none;
+}
+
+@media (min-width: 768px) {
+    main {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #current-weather,
+    #forecast,
+    #search-history {
+        flex: 1;
+        margin-right: 10px;
+        padding: 20px;
+        border: 1px solid #666;
+        border-radius: 8px;
+        background-color: #333;
+        color: #fff;
+    }
+}
