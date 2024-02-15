@@ -44,7 +44,7 @@ cd weather-dashboard
 
 ### Deployment
 
-The Weather Dashboard is deployed and accessible at [https://OpalSnellneberger.github.io/weather-dashboard/](https://OpalSnellneberger.github.io/weather-dashboard/).
+The Weather Dashboard is deployed and accessible at [https://OpalSnellneberger.github.io/weather-dashboard](https://opalsnellneberger.github.io/Weather-Dashboard/).
 
 ### Credits
 
